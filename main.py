@@ -1,10 +1,10 @@
 """
-The program generates a square of random color in a window. After a while, the square's color will change to a different
+The program generates a square with white color in a window. After a while, the square's color will change to a
 random color by changing the color's red, green, and blue values (from the RGB spectrum).
 
 A label beneath the square will display the color name based on the current color's hue value (from the HSV spectrum).
 
-The color will continue to change until the window is closed.
+The color will continue to change to a different random color until the window is closed.
 """
 __author__ = "Ilma Andayana"
 __email__ = "halo@ilmaandayana.com"
@@ -18,7 +18,7 @@ import time  # for time access (https://docs.python.org/3/library/time.html)
 
 
 # Global variable(s)
-SLEEP_TIME = 1
+SLEEP_TIME = 0.75
 
 
 # Create a window
