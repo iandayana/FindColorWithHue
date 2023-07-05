@@ -18,13 +18,3 @@ class Square(Turtle):
         self.color_g = random.random()
         self.color_b = random.random()
         self.color(self.color_r, self.color_g, self.color_b)
-
-
-
-
-
-
-
-
-
-
